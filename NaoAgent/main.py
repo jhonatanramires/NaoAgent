@@ -14,7 +14,6 @@ from ClassicRealTime import WhisperLoop
 from promptFormating import prompt_formating
 
 context = "You are the Nao Virtual Assistent"
-openai_api_key = "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"
 
 nao = AgentHandler(0,toolsAI,context,openai_api_key)
 
